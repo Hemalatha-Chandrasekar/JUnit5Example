@@ -12,20 +12,4 @@ class PersonTest {
         Person person2 = new Person("Alice", 30);
         assertEquals(person1, person2, "Persons with the same name and age should be equal");
     }
-
-    @Test
-    void getName() {
-    }
-
-    @Test
-    void getAge() {
-    }
-
-    @Test
-    void testEquals() {
-    }
-
-    @Test
-    void testHashCode() {
-    }
 }
